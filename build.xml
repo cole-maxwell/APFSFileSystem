@@ -31,12 +31,7 @@
 	<target name="compile" depends="init">
 		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="false">
             <classpath refid="classpath"/>	
-			<include name="edu/umb/cs680/hw09/fs/StartupFileSystem.java"/>
-			<include name="edu/umb/cs680/hw09/fs/FileSystem.java"/>
-			<include name="edu/umb/cs680/hw09/fs/FSElement.java"/>
-			<include name="edu/umb/cs680/hw09/apfs/ApfsDirectory.java"/>
-			<include name="edu/umb/cs680/hw09/apfs/ApfsFile.java"/>
-			<include name="edu/umb/cs680/hw09/apfs/ApfsLink.java"/>
+			<include name="edu/umb/cs680/hw09/fs/*.java"/>
 		</javac>
 		<javac srcdir="${test.src}" destdir="${test.bin}" includeAntRuntime="false">
             <classpath refid="classpath"/>	
