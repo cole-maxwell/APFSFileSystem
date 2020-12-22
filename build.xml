@@ -32,6 +32,7 @@
 		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="false">
             <classpath refid="classpath"/>	
 			<include name="edu/umb/cs680/hw09/fs/*.java"/>
+			<include name="edu/umb/cs680/hw09/apfs/*.java"/>
 		</javac>
 		<javac srcdir="${test.src}" destdir="${test.bin}" includeAntRuntime="false">
             <classpath refid="classpath"/>	
@@ -47,7 +48,7 @@
 			<classpath refid="classpath" />
 			<testclasses outputdir="${test.reports}">
 				<fileset dir="${test.bin}">	
-					<include name="edu/umb/cs680/hw09/fs/ApfsFileSystemTest.class"/>
+					<include name="edu/umb/cs680/hw09/fs/*Test.class"/>
 				</fileset>
 				<listener type="legacy-plain" sendSysOut="true"/>
 			</testclasses>
