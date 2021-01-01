@@ -9,7 +9,7 @@ composite and proxy design patterns established for the APFS file system here.<b
 
 ---- Compile & Run ----<br />
 
-**_cd_** to **_/FileSystem_** and type **_ant -f build.xml_**.<br />
+**_cd_** to **_/APFSFileSystem_** and type **_ant -f build.xml_**.<br />
 
 ---- Prerequisite Steps & Environment Setup ----<br />
 
