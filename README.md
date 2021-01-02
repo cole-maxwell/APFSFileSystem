@@ -1,11 +1,11 @@
 # ApfsFileSystem
 ---- Program Description ----<br />
 
-The /fs package contains the file system foundation classes, FileSystem and FSElement. <br />
+The /fs package contains the file system foundation classes: FileSystem and FSElement. <br />
 The /apfs package contains the APFS file system elements, where APFS extends FileSystem,<br />
 ApfsElement extends FSElement, and ApfsDirectory, ApfsFile, and ApfsLink extend ApfsElement.<br />
-Other types of file systems like FAT32 or NTFS can added moduluary using the factory methods and <br />
-composite and proxy design patterns established for the APFS file system here.<br />
+Other types of file systems like FAT32 and NTFS can added moduluary using the factory, composite, <br />
+and proxy design patterns established here for the APFS file system.<br />
 
 ---- Compile & Run ----<br />
 
